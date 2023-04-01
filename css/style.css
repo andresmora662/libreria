@@ -1,0 +1,450 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header{
+    height: 100px;
+    background-color: rgb(154, 154, 247);
+    display: flex;
+    justify-content: center;
+    
+}
+
+ul li {
+    list-style: none;
+    margin: 0px 0px 0px 120px;
+    padding: 3px 0px;
+    
+
+}
+
+ul li a{
+    text-decoration: none;
+
+    color: rgb(3, 0, 0);
+    font-weight: 600;
+    margin: 0px 50px ;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: .6px;
+
+
+
+}
+
+.lista_desordenada{
+    display: flex;
+    align-items: center;
+
+    width: 90%;
+
+
+    
+
+    
+}
+
+.caja_logo{
+    display: flex;
+    align-items: center;
+    width: 10%;
+    justify-content: center;
+
+
+
+}
+
+.logo{
+    width: 60px;
+    height: 60px;
+
+}
+
+main{
+    background-color: rgb(255, 255, 255);
+
+
+
+}
+
+.caja_main{
+    display: grid;
+    grid-template-columns: 55.1% auto;
+    grid-template-rows: 60px 200px auto auto;
+
+}
+
+.caja_promo{
+background-color: rgb(0, 0, 0);
+height: 40px;
+width: 400px;
+border: 1px solid black;
+border-radius: 30px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.promo_link{
+    display: flex;
+    color: white;
+
+    justify-content: center;
+    align-items: center;
+    grid-column: 1/2;
+    font-family: Arial, Helvetica, sans-serif;
+
+    
+}
+
+
+
+.titulo_main{
+
+    grid-column: 1/2;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    
+
+}
+
+.parrafo{
+
+    grid-column: 1/2;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 130px;
+    font-size: 23px;
+    font-weight: 900;
+}
+
+.caja_imagen{
+    grid-column: 2/3;
+    grid-row: 1/5
+}
+
+.caja_imagen img{
+    width: 100%;
+}
+
+.formulario{
+    background-color: rgb(154, 154, 247);
+    grid-row: 4/5 ;
+    text-align: center;
+    margin: 0 auto;
+    width: 600px;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    border-radius: 20px;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.formulario p{
+    padding: 0px;
+    margin: 10px 0px 0px 0px;
+
+}
+
+input, textarea{
+    border: 0;
+    outline: none;
+    width: 230px;
+}
+
+.campo{
+    border: 1px solid black;
+    padding: 3px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+.campo:focus{
+    border-color: rgb(181, 181, 255);
+}
+
+.btn{
+    margin: 10px;
+    background-color: rgb(207, 207, 255);
+    border-radius: 5px;
+    height: 40px;
+    font-size: 16px;
+    border: solid 1px black;
+    font-weight: 550;
+    box-shadow: 2px 2px 5px black;
+    text-shadow: 0px 0px 0px black;
+    color: black;
+    
+}
+
+.btn:hover{
+    background-color: rgb(178, 178, 219);
+}
+
+.btn:active{
+    background-color: rgb(142, 142, 177);
+}
+
+.seccion-1{
+
+    height: 900PX;
+    background-color: rgb(154, 154, 247);
+    margin-top: 20px;
+
+}
+
+
+.encabezado h2{
+    margin-top: 20px;
+    padding-top: 20px;
+
+}
+
+.caja_seccion p{
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+section h3{
+    text-align: center;
+    font-size: 25px;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section .encabezado{
+    text-align: center;
+    margin: 15px 0px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.encabezado p{
+    margin: 10px;
+    color: rgb(76, 80, 90);
+
+}
+
+.galeria{
+    display: flex;
+    justify-content: center;
+}
+
+.caja_libro_1{
+    background-color: hsl(0, 0%, 0%);
+    width: 30%;
+    text-align: center;
+    padding: 10px;
+    margin: 0px 10px;
+    border-radius: 10PX;
+    cursor: pointer;
+    box-shadow: 0PX 15PX 30PX rgba(0, 0, 0, 0.904), 0 10px 10px rgba(0, 0, 0, 0.25);
+    
+}
+
+.caja_libro_1:hover{
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.486);
+    transition: .3s;
+    transform: translate(0px, -5px);
+}
+
+
+.caja_libro_2{
+    background-color: hsl(0, 0%, 0%);
+    width: 30%;
+
+    text-align: center;
+    padding: 10px;
+    margin: 0px 10px;
+    cursor: pointer;
+    border-radius: 10PX;
+    box-shadow: 0PX 14PX 30PX rgba(0, 0, 0, 0.699), 0 10px 10px rgba(0, 0, 0, 0.25)
+}
+
+.caja_libro_2:hover{
+    box-shadow: 0 3px 6px #000000b2;
+    transition: .4s;
+    transform: translate(0px, -5px);
+
+}
+
+
+.caja_libro_3{
+    background-color: hsl(0, 0%, 0%);
+    width: 30%;
+    text-align: center;
+    padding: 10px;
+    margin: 0px 10px;
+    cursor: pointer;
+    border-radius: 10PX;
+    box-shadow: 0PX 14PX 30PX rgba(0, 0, 0, 0.904), 0 10px 10px rgba(0, 0, 0, 0.25)
+
+}
+
+.caja_libro_3:hover{
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.692);
+    transition: .4s;
+    transform: translate(0px, -5px);
+
+}
+
+
+.galeria img{
+
+    background-color: hsl(253, 100%, 84%);
+    margin: 0% 0% 10% 0%;
+}
+
+.portada_1{
+    padding: 10% 10%;
+    border-radius: 5px;
+
+}
+
+.portada_2{
+    padding: 10.4% 10%;
+    border-radius: 5px;
+}
+
+.portada_3{
+    padding: 9.1% 10%;
+    border-radius: 5px;
+
+}
+
+.galeria p{
+    color: rgb(255, 255, 255);
+    margin: 10px 0px 10px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.galeria h6{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin: 0px 0px 5px 0px;
+}
+
+.galeria button {
+    font-size: 25px;  
+    width: 100%;
+    padding: 10px;
+    border: 0;  
+    outline: none;
+    cursor: pointer;
+    margin-top: 5px;
+    border-radius: 10px;
+}
+
+.comprar-1{
+background-color: black;
+color: white;
+font-weight: bold;
+}
+
+.comprar-1:hover{
+    background-color: rgb(104, 116, 219);
+    color: rgb(255, 255, 255);
+}
+
+.comprar-2{
+    background-color: black;
+color: white;
+font-weight: bold;
+}
+
+.comprar-2:hover{
+    background-color: rgb(104, 116, 219);
+    color: rgb(255, 255, 255);
+}
+
+.comprar-3{
+    background-color: black;
+color: white;
+font-weight: bold;
+}
+
+.comprar-3:hover{
+    background-color: rgb(104, 116, 219);
+    color: rgb(255, 255, 255);
+}
+
+/*________________seccio 2___________________*/
+
+.seccion-2{
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.galeria-2{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+
+}
+
+.caja_libro_recomendado{
+    background-color: rgb(154, 154, 247);
+    text-align: center;
+    padding: 10px;
+    border-radius: 10PX;
+    cursor: pointer;
+    width: 30%;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto 80% auto;
+    margin: 0px 10px;
+    
+    
+}
+
+
+
+.galeria-2 h6{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: start;
+    padding: 0px 33%;
+    grid-column: 1/2;
+    grid-row: 3/6;
+    
+}
+
+.galeria-2 p{
+    color: rgb(255, 255, 255);
+    padding: 15% 5%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+
+
+}
+
+.galeria-2 h3{
+    letter-spacing: 1px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: start;
+    grid-row: 1/2;
+    grid-column: 1/6;
+    padding: 0 20%;
+    
+    
+}
+
+.portada-recomendado-1{
+    border-radius: 5px;
+}
+
+footer{
+    text-align: center;
+    background-color: rgb(154, 154, 247);
+}
+
+footer h3{
+        padding: 15px 0px 15px 0px;
+        
+}
