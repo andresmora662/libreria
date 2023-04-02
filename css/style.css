@@ -770,15 +770,15 @@ header{
     background-color: rgb(154, 154, 247);
     display: flex;
     justify-content: center;
-
-    width: 140%;
+    width: 100%;
 
 }
 
 ul li {
     list-style: none;
-    margin: 0px 0px 0px 30px;
+    margin: 0px 0px 0px 0px;
     padding: 3px 0px;
+    padding-right: 9px
 
 }
 
@@ -786,15 +786,19 @@ ul li a{
     text-decoration: none;
     color: rgb(3, 0, 0);
     font-weight: 600;
-    margin: 0px 0px ;
+    margin: 0px 0px 0px 0px;
     font-family: Arial, Helvetica, sans-serif;
     letter-spacing: .6px;
+
+
 
 }
 
 .lista_desordenada{
     display: flex;
     align-items: center;
+
+    margin-left: 10px;
 
     
 }
@@ -803,8 +807,8 @@ ul li a{
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 0px 38px;
 
-    padding: 0px 55px;
 
 }
 
