@@ -72,6 +72,7 @@ main{
     display: grid;
     grid-template-columns: 55.1% auto;
     grid-template-rows: 60px 200px auto auto;
+    
 
 }
 
@@ -929,6 +930,182 @@ input, textarea{
 /*SECCION 1*/
 
 
+
+.seccion-1{
+
+    height: auto;
+    background-color: rgb(154, 154, 247);
+    margin-top: 20px;
+    padding-bottom: 30px;
+
+}
+
+
+.encabezado h2{
+    margin-top: 20px;
+    padding-top: 0px;
+
+}
+
+
+section h3{
+    text-align: center;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+
+.galeria{
+    display: grid;
+    grid-template-columns: auto;
+}
+
+.caja_libro_1{
+    background-color: hsl(0, 0%, 0%);
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    margin: 0px 10px 20px 0px;
+    border-radius: 10PX;
+    cursor: pointer;
+    box-shadow: 0PX 15PX 30PX rgba(0, 0, 0, 0.904), 0 10px 10px rgba(0, 0, 0, 0.25);
+ 
+    
+}
+
+
+.caja_libro_2{
+    background-color: hsl(0, 0%, 0%);
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    margin: 0px 0px 20px 0px;
+    cursor: pointer;
+    border-radius: 10PX;
+    box-shadow: 0PX 14PX 30PX rgba(0, 0, 0, 0.699), 0 10px 10px rgba(0, 0, 0, 0.25)
+}
+
+
+.caja_libro_3{
+    background-color: hsl(0, 0%, 0%);
+    width: 100%;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 10PX;
+    box-shadow: 0PX 14PX 30PX rgba(0, 0, 0, 0.904), 0 10px 10px rgba(0, 0, 0, 0.25);
+    margin: 0px;
+
+}
+
+.galeria h6{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin: 0px 0px 5px 0px;
+}
+
+.galeria button {
+    font-size: 25px;  
+    width: 100%;
+    padding: 10px;
+    border: 0;  
+    outline: none;
+    cursor: pointer;
+    margin-top: 5px;
+    border-radius: 10px;
+    background-color: hsl(253, 100%, 84%) ;
+}
+
+.comprar-1{
+background-color: black;
+color: rgb(0, 0, 0);
+font-weight: bold;
+}
+
+
+.comprar-2{
+    background-color: black;
+color: rgb(0, 0, 0);
+font-weight: bold;
+}
+
+
+.comprar-3{
+    background-color: black;
+color: rgb(0, 0, 0);
+font-weight: bold;
+}
+
+/*seccio,___2_______*/
+
+
+.seccion-2{
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.galeria-2{
+    display: grid;
+    grid-template-columns: auto;
+    width: 100%;
+    height: 100%;
+
+}
+
+.caja_libro_recomendado{
+    background-color: rgb(154, 154, 247);
+    text-align: center;
+    padding: 10px;
+    border-radius: 10PX;
+    cursor: pointer;
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto;
+    margin: 0px 0px 20px 0px;
+
+    
+}
+
+.galeria-2 h6{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: start;
+    padding: 0px 40%;
+    grid-row: 5/6;
+
+}
+
+.galeria-2 p{
+    color: rgb(255, 255, 255);
+    padding: 5% 5%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+
+
+
+}
+
+.galeria-2 h3{
+    letter-spacing: 1px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    grid-row: 1/2;
+    margin-bottom: 5px;
+    color: black;
+    
+    
+}
+
+.portada-recomendado-1{
+    border-radius: 5px;
+    border: solid white;
+    padding: 0;
+    margin-left: 20%;
+    
+}
 
 
 }
