@@ -61,6 +61,7 @@ ul li a{
 
 }
 
+/* Main_______________MAIN*/
 main{
     background-color: rgb(255, 255, 255);
 
@@ -453,8 +454,57 @@ footer h3{
 }
 
 
+/*diseño responsivo para telefono S*/
 
-/*diseño responsivo para telefono*/
+@media(min-width: 320px){
+
+    
+header{
+    background-color: rgb(154, 154, 247);
+    width: 186%;
+
+
+}
+
+ul li {
+    list-style: none;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px;
+
+    
+
+}
+
+ul li a{
+    text-decoration: none;
+    color: rgb(3, 0, 0);
+    font-weight: 600;
+    margin: 0px 0px 0px 35px ;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: .6px;
+
+
+}
+
+.lista_desordenada{
+     width: 100%;    
+
+}
+
+.caja_logo{
+    width: 20%;
+
+}
+
+.logo{
+    width: 60px;
+    height: 60px;
+
+}
+
+}
+
+/*diseño responsivo para telefono L*/
 
 
 @media(min-width: 425px){
