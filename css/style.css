@@ -511,9 +511,6 @@ ul li a{
 
 /*MAIN FHONE S*/
 
-
-
-/* Main_______________MAIN*/
 main{
     background-color: rgb(255, 255, 255);
 
@@ -549,9 +546,6 @@ font-size: 6.9px;
     align-items: center;
     grid-column: 1/2;
     font-family: Arial, Helvetica, sans-serif;
-
-
-    
 }
 
 
@@ -562,20 +556,15 @@ font-size: 6.9px;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 25px;
-
-    
-
 }
 
 .parrafo{
-
     grid-column: 1/2;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     height: 100%;
     font-size: 15px;
     font-weight: 200;
-
     margin-bottom: 3px;
 }
 
@@ -587,7 +576,6 @@ font-size: 6.9px;
 .caja_imagen img{
     width: 100%;
     height: 100%;
-
 }
 
 .formulario{
@@ -601,22 +589,17 @@ font-size: 6.9px;
     border-radius: 20px;
     font-size: 12px;
     font-family: Arial, Helvetica, sans-serif;
-
 }
 
 .formulario p{
     padding: 0px;
     margin: 10px 0px 0px 0px;
-
-    
-
 }
 
 input, textarea{
     border: 0;
     outline: none;
     width: 80%;
-
 }
 
 .campo{
@@ -626,9 +609,6 @@ input, textarea{
     border-radius: 10px;
 }
 
-.campo:focus{
-    border-color: rgb(181, 181, 255);
-}
 
 .btn{
     margin: 10px;
@@ -640,18 +620,191 @@ input, textarea{
     font-weight: 550;
     box-shadow: 2px 2px 5px black;
     text-shadow: 0px 0px 0px black;
-    color: black;
+    color: black;  
+}
+
+/*MAIN SIZE S*/
+
+
+/*seccion 1*/
+
+.seccion-1{
+
+    height: auto;
+    background-color: rgb(154, 154, 247);
+    margin-top: 20px;
+    border: solid 9PX rgb(255, 251, 0);
+}
+
+
+.encabezado h2{
+    margin-top: 0px;
+    padding-top: 0px;
+    border: solid 2px;
+
+}
+
+section h3{
+    text-align: center;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    border: solid rgb(165, 0, 0);
+}
+
+section .encabezado{
+    text-align: center;
+    margin: 15px 0px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: solid ;
+}
+
+.encabezado p{
+    margin: 10px;
+    color: rgb(76, 80, 90);
+    border: solid 1px;
+
+}
+
+.galeria{
+    display: grid;
+    grid-template-columns: auto;
+    border: solid rgb(136, 136, 34);
+}
+
+.caja_libro_1{
+    background-color: hsl(0, 0%, 0%);
+    width: 100%;
+    text-align: center;
+    padding: 0px;
+    margin: 0px 0px 30px 0px;
+    border-radius: 10PX;
+    cursor: pointer;
+    box-shadow: 0PX 15PX 30PX rgba(0, 0, 0, 0.904), 0 10px 10px rgba(0, 0, 0, 0.25);
+    border: solid red;
     
 }
 
-.btn:hover{
-    background-color: rgb(178, 178, 219);
+
+.caja_libro_2{
+    background-color: hsl(0, 0%, 0%);
+    width: 100%;
+    text-align: center;
+    padding: 0px;
+    margin: 0px 0px 30px 0px;
+    cursor: pointer;
+    border-radius: 10PX;
+    box-shadow: 0PX 14PX 30PX rgba(0, 0, 0, 0.699), 0 10px 10px rgba(0, 0, 0, 0.25)
 }
 
-.btn:active{
-    background-color: rgb(142, 142, 177);
+
+.caja_libro_3{
+    background-color: hsl(0, 0%, 0%);
+    width: 100%;
+    text-align: center;
+    padding: 0px;
+    margin: 0px 0px 0px 0px;
+    cursor: pointer;
+    border-radius: 10PX;
+    box-shadow: 0PX 14PX 30PX rgba(0, 0, 0, 0.904), 0 10px 10px rgba(0, 0, 0, 0.25)
+
 }
 
+
+.galeria h6{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin: 0px 0px 5px 0px;
+}
+
+.galeria button {
+    font-size: 25px;  
+    width: 100%;
+    padding: 10px;
+    border: 0;  
+    outline: none;
+    cursor: pointer;
+    margin-top: 5px;
+    border-radius: 10px;
+    background-color: rgb(154, 154, 247);
+    color: black;
+}
+
+
+/*seccion 2 fhone S*/
+
+
+.seccion-2{
+    
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.galeria-2{
+    display: grid;
+    grid-template-columns: auto;
+    width: 100%;
+    height: 100%;
+
+}
+
+.caja_libro_recomendado{
+    background-color: rgb(154, 154, 247);
+    text-align: center;
+    padding: 10px;
+    border-radius: 10PX;
+    cursor: pointer;
+    width: 30%;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto 80% auto;
+    margin: 0px 10px;
+    border: solid red;
+    
+    
+}
+
+
+
+.galeria-2 h6{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: start;
+    padding: 0px 33%;
+    grid-column: 1/2;
+    grid-row: 3/6;
+    border: solid;
+    
+}
+
+.galeria-2 p{
+    color: rgb(255, 255, 255);
+    padding: 15% 5%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    border: solid;
+
+
+}
+
+.galeria-2 h3{
+    letter-spacing: 1px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: start;
+    grid-row: 1/2;
+    grid-column: 1/6;
+    padding: 0 20%;
+    border: solid red;
+    
+    
+}
+
+.portada-recomendado-1{
+    border-radius: 5px;
+}
 
 
 
