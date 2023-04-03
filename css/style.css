@@ -1156,7 +1156,7 @@ section .encabezado{
         background-color: rgb(154, 154, 247);
         display: flex;
         justify-content: center;
-        width: 110%;
+        width: 120%;
         
     }
     
@@ -1226,6 +1226,8 @@ section .encabezado{
     height: 100%;
     background-color: rgb(154, 154, 247);
     margin-top: 20px;
+    width: 108%;
+
 
 }
 
@@ -1382,8 +1384,9 @@ font-weight: bold;
 .galeria-2{
     display: flex;
     justify-content: center;
-    width: 100%;
+    width: 108%;
     height: 100%;
+
 
 }
 
