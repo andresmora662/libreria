@@ -1147,6 +1147,7 @@ section .encabezado{
     
     }
 
+/* tablet____________________________*/
 
 @media (min-width: 768px){
 
@@ -1155,6 +1156,7 @@ section .encabezado{
         background-color: rgb(154, 154, 247);
         display: flex;
         justify-content: center;
+        width: 110%;
         
     }
     
@@ -1178,8 +1180,7 @@ section .encabezado{
     
     }
 
-    
-
+/* SECCION 0 TABLET*/
 
 .titulo_main{
 
@@ -1217,7 +1218,7 @@ section .encabezado{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-/*SECCION 1 RESPONSIVA CARTAS LIBROS*/
+/*SECCION 1 tablet__________RESPONSIVA tragetas LIBROS*/
 
 
 .seccion-1{
@@ -1225,14 +1226,13 @@ section .encabezado{
     height: 100%;
     background-color: rgb(154, 154, 247);
     margin-top: 20px;
-    padding-bottom: 30PX;
 
 }
 
 
 .encabezado h2{
     margin-top: 20px;
-    padding-top: 5px;
+    padding-top: 20px;
 
 }
 
@@ -1240,54 +1240,139 @@ section .encabezado{
 section h3{
     text-align: center;
     font-size: 25px;
- 
     font-family: Arial, Helvetica, sans-serif;
-    color: white;
 }
 
 section .encabezado{
     text-align: center;
-    margin: 0px;
+    margin: 15px 0px;
     font-size: 20px;
-    padding-bottom: 7px;
-    
+    font-family: Arial, Helvetica, sans-serif;
+
 }
 
 .encabezado p{
-    margin: 8px 0PX;
+    margin: 10px;
     color: rgb(76, 80, 90);
 
 }
+
+.galeria{
+    display: flex;
+    justify-content: center;
+}
+
+.caja_libro_1{
+    background-color: hsl(0, 0%, 0%);
+    width: 30%;
+    text-align: center;
+    padding: 10px;
+    margin: 0px 10px;
+    border-radius: 10PX;
+    cursor: pointer;
+    box-shadow: 0PX 15PX 30PX rgba(0, 0, 0, 0.904), 0 10px 10px rgba(0, 0, 0, 0.25);
+
+}
+
+
+.caja_libro_2{
+    background-color: hsl(0, 0%, 0%);
+    width: 30%;
+
+    text-align: center;
+    padding: 10px;
+    margin: 0px 10px;
+    cursor: pointer;
+    border-radius: 10PX;
+    box-shadow: 0PX 14PX 30PX rgba(0, 0, 0, 0.699), 0 10px 10px rgba(0, 0, 0, 0.25)
+}
+
+.caja_libro_3{
+    background-color: hsl(0, 0%, 0%);
+    width: 30%;
+    text-align: center;
+    padding: 10px;
+    margin: 0px 10px;
+    cursor: pointer;
+    border-radius: 10PX;
+    box-shadow: 0PX 14PX 30PX rgba(0, 0, 0, 0.904), 0 10px 10px rgba(0, 0, 0, 0.25)
+
+}
+
 
 
 .galeria img{
 
     background-color: hsl(253, 100%, 84%);
+    margin: 0% 0% 10% 0%;
     width: 100%;
+}
 
+.portada_1{
+    padding: 10% 10%;
+    border-radius: 5px;
+
+}
+
+.portada_2{
+    padding: 10.4% 10%;
+    border-radius: 5px;
+}
+
+.portada_3{
+    padding: 9.1% 10%;
+    border-radius: 5px;
+
+}
+
+.galeria p{
+    color: rgb(255, 255, 255);
+    margin: 10px 0px 10px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.galeria h6{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin: 0px 0px 5px 0px;
+}
+
+.galeria button {
+    font-size: 25px;  
+    width: 100%;
+    padding: 10px;
+    border: 0;  
+    outline: none;
+    cursor: pointer;
+    margin-top: 5px;
+    border-radius: 10px;
 }
 
 .comprar-1{
 background-color: black;
-color: black;
+color: white;
 font-weight: bold;
 }
 
 
+
 .comprar-2{
     background-color: black;
-color: black;
+color: white;
 font-weight: bold;
 }
 
 
 .comprar-3{
     background-color: black;
-color: black;
+color: white;
 font-weight: bold;
 }
 
-/*seccion 2 diseño responsivo*/
+
+/*seccion 2 diseño responsivo tablet*/
 
 
 .seccion-2{
