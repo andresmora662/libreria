@@ -633,14 +633,12 @@ input, textarea{
     height: auto;
     background-color: rgb(154, 154, 247);
     margin-top: 20px;
-    border: solid 9PX rgb(255, 251, 0);
 }
 
 
 .encabezado h2{
     margin-top: 0px;
     padding-top: 0px;
-    border: solid 2px;
 
 }
 
@@ -649,7 +647,6 @@ section h3{
     font-size: 25px;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
-    border: solid rgb(165, 0, 0);
 }
 
 section .encabezado{
@@ -657,32 +654,27 @@ section .encabezado{
     margin: 15px 0px;
     font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
-    border: solid ;
 }
 
 .encabezado p{
     margin: 10px;
     color: rgb(76, 80, 90);
-    border: solid 1px;
-
 }
 
 .galeria{
     display: grid;
     grid-template-columns: auto;
-    border: solid rgb(136, 136, 34);
 }
 
 .caja_libro_1{
     background-color: hsl(0, 0%, 0%);
     width: 100%;
     text-align: center;
-    padding: 0px;
+    padding: 10px 0px 0px 0px;
     margin: 0px 0px 30px 0px;
     border-radius: 10PX;
     cursor: pointer;
     box-shadow: 0PX 15PX 30PX rgba(0, 0, 0, 0.904), 0 10px 10px rgba(0, 0, 0, 0.25);
-    border: solid red;
     
 }
 
@@ -691,7 +683,7 @@ section .encabezado{
     background-color: hsl(0, 0%, 0%);
     width: 100%;
     text-align: center;
-    padding: 0px;
+    padding: 10px 0px 0px 0px;
     margin: 0px 0px 30px 0px;
     cursor: pointer;
     border-radius: 10PX;
@@ -703,11 +695,12 @@ section .encabezado{
     background-color: hsl(0, 0%, 0%);
     width: 100%;
     text-align: center;
-    padding: 0px;
-    margin: 0px 0px 0px 0px;
+    padding: 10px 0px 0px 0px;
+    margin: 0px 0px 30px 0px;
     cursor: pointer;
     border-radius: 10PX;
-    box-shadow: 0PX 14PX 30PX rgba(0, 0, 0, 0.904), 0 10px 10px rgba(0, 0, 0, 0.25)
+    box-shadow: 0PX 14PX 30PX rgba(0, 0, 0, 0.904), 0 10px 10px rgba(0, 0, 0, 0.25);
+
 
 }
 
@@ -739,7 +732,7 @@ section .encabezado{
 .seccion-2{
     
     height: auto;
-    margin-bottom: 10px;
+    margin: 30px 0px 0px 0px;
 }
 
 .galeria-2{
@@ -753,15 +746,14 @@ section .encabezado{
 .caja_libro_recomendado{
     background-color: rgb(154, 154, 247);
     text-align: center;
-    padding: 10px;
+    padding: 0px;
     border-radius: 10PX;
     cursor: pointer;
-    width: 30%;
+    width: 100%;
     display: grid;
-    grid-template-columns: auto auto;
-    grid-template-rows: auto 80% auto;
-    margin: 0px 10px;
-    border: solid red;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto;
+    margin: 0px 0px 15px 0px;
     
     
 }
@@ -772,10 +764,9 @@ section .encabezado{
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
     text-align: start;
-    padding: 0px 33%;
-    grid-column: 1/2;
-    grid-row: 3/6;
-    border: solid;
+    padding: 0px 38%;
+    grid-row: 5/6;
+    margin-bottom: 10px;
     
 }
 
@@ -784,7 +775,8 @@ section .encabezado{
     padding: 15% 5%;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
-    border: solid;
+    grid-row: 4/5;
+    color: black;
 
 
 }
@@ -793,17 +785,16 @@ section .encabezado{
     letter-spacing: 1px;
     font-size: 25px;
     font-family: Arial, Helvetica, sans-serif;
-    text-align: start;
     grid-row: 1/2;
-    grid-column: 1/6;
-    padding: 0 20%;
-    border: solid red;
+    margin: 0 auto;
+    color: black;
     
     
 }
 
 .portada-recomendado-1{
     border-radius: 5px;
+    margin: 0 auto;
 }
 
 
