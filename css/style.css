@@ -668,10 +668,10 @@ section .encabezado{
 
 .caja_libro_1{
     background-color: hsl(0, 0%, 0%);
-    width: 100%;
-    text-align: center;
+    width: 95%;
     padding: 10px 0px 0px 0px;
-    margin: 0px 0px 30px 0px;
+    margin: 0 auto;
+    margin-bottom: 30px;
     border-radius: 10PX;
     cursor: pointer;
     box-shadow: 0PX 15PX 30PX rgba(0, 0, 0, 0.904), 0 10px 10px rgba(0, 0, 0, 0.25);
@@ -681,10 +681,11 @@ section .encabezado{
 
 .caja_libro_2{
     background-color: hsl(0, 0%, 0%);
-    width: 100%;
+    width: 95%;
     text-align: center;
     padding: 10px 0px 0px 0px;
-    margin: 0px 0px 30px 0px;
+    margin: 0 auto;
+    margin-bottom: 30px;
     cursor: pointer;
     border-radius: 10PX;
     box-shadow: 0PX 14PX 30PX rgba(0, 0, 0, 0.699), 0 10px 10px rgba(0, 0, 0, 0.25)
@@ -693,10 +694,11 @@ section .encabezado{
 
 .caja_libro_3{
     background-color: hsl(0, 0%, 0%);
-    width: 100%;
+    width: 95%;
     text-align: center;
     padding: 10px 0px 0px 0px;
-    margin: 0px 0px 30px 0px;
+    margin: 0 auto;
+    margin-bottom: 30px;
     cursor: pointer;
     border-radius: 10PX;
     box-shadow: 0PX 14PX 30PX rgba(0, 0, 0, 0.904), 0 10px 10px rgba(0, 0, 0, 0.25);
@@ -738,8 +740,9 @@ section .encabezado{
 .galeria-2{
     display: grid;
     grid-template-columns: auto;
-    width: 100%;
+    width: 90%;
     height: 100%;
+    margin: 0 auto;
 
 }
 
